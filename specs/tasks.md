@@ -6,11 +6,11 @@ This task list is derived from `specs/design.md` and organizes the work needed t
 
 ## 1. Project Foundation
 
-- [ ] Confirm the repository layout for frontend, backend, ingestion, deployment, and monitoring assets.
-- [ ] Set up the Node.js backend project structure for the API gateway.
-- [ ] Define shared TypeScript types or interfaces for chat requests, chat responses, session state, retrieval results, and error payloads.
-- [ ] Add environment-based configuration loading for all backend services.
-- [ ] Establish baseline linting, formatting, and test tooling for the Node.js codebase.
+- [x] Confirm the repository layout for frontend, backend, ingestion, deployment, and monitoring assets.
+- [x] Set up the Node.js backend project structure for the API gateway.
+- [x] Define shared TypeScript types or interfaces for chat requests, chat responses, session state, retrieval results, and error payloads.
+- [x] Add environment-based configuration loading for all backend services.
+- [x] Establish baseline linting, formatting, and test tooling for the Node.js codebase.
 
 ## 2. Backend API Gateway
 
@@ -129,4 +129,3 @@ This task list is derived from `specs/design.md` and organizes the work needed t
 - [ ] Add API contract tests for chat, health, and metrics endpoints.
 - [ ] Add end-to-end checks for the chat flow through the backend and local Ollama runtime.
 - [ ] Verify Docker Compose startup and Kubernetes manifest consistency.
-
