@@ -14,7 +14,7 @@ This task list is derived from `specs/design.md` and organizes the work needed t
 
 ## 2. Backend API Gateway
 
-- [ ] Implement the HTTP server bootstrap for the Node.js API gateway.
+- [x] Implement the HTTP server bootstrap for the Node.js API gateway.
 - [ ] Add route registration for `POST /api/v1/chat`, `GET /api/v1/health`, and `GET /metrics`.
 - [ ] Implement request validation for chat payloads, including size and field checks.
 - [ ] Add consistent JSON error handling for validation, upstream failures, timeout, and security rejection cases.

@@ -27,7 +27,7 @@ export function loadConfig(): AppConfig {
   return {
     nodeEnv: readString('NODE_ENV', 'development'),
     port: readNumber('PORT', 8000),
-    ollamaHost: readString('OLLAMA_HOST', '192.168.1.88'),
+    ollamaHost: readString('OLLAMA_HOST', '192.168.1.85'),
     ollamaPort: readNumber('OLLAMA_PORT', 11434),
     ollamaModel: readString('OLLAMA_MODEL', 'llama3.2'),
     vectorDbUrl: readString('VECTOR_DB_URL', 'http://vector-db:6333'),
